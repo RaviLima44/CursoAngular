@@ -1,3 +1,17 @@
-Anotações do Curso
+ Anotações do Curso
+
+Comandos:
+"ng new nomeDoProjeto" - Criar novo projeto
+"ng g c nomeDoComponente" - Cria um novo componente
 
 Aula 09: Property Binding e Interpolação
+
+Template   <--------  Component  {{valor}}
+Template   <--------  Component  [propriedade]="valor"
+Template   -------->  Component  (evento)="handler"
+Template   <------->  Component  [ngModel]="propriedade"
+
+{{}} = Interpolação 
+[propriedade]="valor" = Property binding
+
+Aula 10: Class e Style binding
